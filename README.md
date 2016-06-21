@@ -16,6 +16,9 @@ Configuracion de entorno en maquina virtual Vagrant para correr el Backend de fo
 vagrant up
 ```
 
+Este comando crea una instancia de la maquina virtual con Ubuntu LTS y agrega los paquetes necesarios para correr el proyecto, al finalizar el "up" clonara dentro de la virtual el proyecto iisidro-server.
+Tiempo estimado de instalacion: 2h.
+
 - Entrar a la VM por ssh:
 
 ```bash
@@ -45,4 +48,27 @@ cd iisidro-server
 ./mvnw spring-boot:run
 ```
 
+En este paso se descargaran las dependencias del proyecto y ejecutara el mismo. Tiempo estimado: 40' ~ 1h dependiendo la conexion de internet.
+
+Cuando el proyecto este listo para ser utilizado aparecera un mensaje como el que sigue:
+
+```bash
+Puede acceder al proyecto mediante: 127.0.0.1:8080
+```
+
+Para detener la ejecucion del mismo, apretando: CTRL + C lo hara.
+
+
 - Abrir en el navegador: http://localhost:9090
+
+- Para salir de la terminal:
+
+```bash
+logout
+```
+
+- Para detener la virtual machine.
+
+```bash
+vagrant halt
+```
