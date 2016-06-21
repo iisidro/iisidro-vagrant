@@ -6,11 +6,11 @@ Configuracion de entorno en maquina virtual Vagrant para correr el Backend de fo
 
 - Instalar [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 
-- Instalar [Vagrant](https://www.vagrantup.com/downloads.html)
+- Instalar [Vagrant](https://www.vagrantup.com/downloads.html) (Probablemente les pida reiniciar)
 
 - Clonar este mismo repositorio o descargarlo en formato zip.
 
-- Ejecutar:
+- Entrar al directorio de iisidro-vagrant y desde una terminal o Powershell ejecutar:
 
 ```bash
 vagrant up
