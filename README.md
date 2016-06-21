@@ -53,7 +53,11 @@ En este paso se descargaran las dependencias del proyecto y ejecutara el mismo. 
 Cuando el proyecto este listo para ser utilizado aparecera un mensaje como el que sigue:
 
 ```bash
-Puede acceder al proyecto mediante: 127.0.0.1:8080
+ar.edu.utn.frro.Application              : Access URLs:
+----------------------------------------------------------
+        Local:          http://127.0.0.1:8080
+        External:       http://10.0.2.15:8080
+----------------------------------------------------------
 ```
 
 Para detener la ejecucion del mismo, apretando: CTRL + C lo hara.
