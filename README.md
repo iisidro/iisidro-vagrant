@@ -22,11 +22,27 @@ vagrant up
 vagrant ssh
 ```
 
+En caso que les pida lo siguiente:
+
+```bash
+Enter passphrase for key
+```
+
+Apretar enter ya que no tiene passphrase, luego:
+
+```bash
+vagrant@127.0.0.1's password:
+```
+
+El password es: vagrant (lo tipeado no aparecera en la consola)
+Finalmente entraran en la terminal del Sistema operativo.
+
+
 - Ejecutar el projecto
 
 ```bash
 cd iisidro-server
-./mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 - Abrir en el navegador: http://localhost:9090
